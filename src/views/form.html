@@ -1,0 +1,11 @@
+<div ng-controller="App.views.form.ctrl">
+  <form onsubmit="return false" name="form" valid-form rules="rules" on-ref="getForm">
+    <div valid-item>
+        <input ng-model="formData.username" type="text" name="username" valid-input>
+    </div>
+    <div valid-item>
+      <input ng-model="formData.password" type="password" name="password" valid-input>
+    </div>
+    <input type="submit" value="确认" ng-click="onSubmit()">
+  </form>
+</div>

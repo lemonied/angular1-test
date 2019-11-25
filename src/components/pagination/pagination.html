@@ -1,0 +1,10 @@
+<div>
+  <div ng-transclude="title"></div>
+  <div ng-transclude="body"></div>
+  <ul
+    uib-pagination
+    items-per-page="size"
+    total-items="total"
+    ng-model="currentPage"
+    ng-change="pageChanged()"></ul>
+</div>

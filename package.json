@@ -1,0 +1,30 @@
+{
+  "name": "angular1-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chenjiyuan",
+  "license": "MIT",
+  "scripts": {
+    "server": "node server",
+    "dev": "gulp clean && gulp build"
+  },
+  "engines": {
+    "node": "~ 8.11.0",
+    "npm": "~ 5.6.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.1",
+    "gulp": "3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  },
+  "devDependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.17.1"
+  }
+}

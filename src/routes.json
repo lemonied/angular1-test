@@ -1,0 +1,34 @@
+[{
+    "title": "home",
+    "template": "views/home.html",
+    "url": "/home",
+    "files": [
+      "directives/loading/loading.js",
+      "js/home/index.js"
+    ]
+}, {
+  "title": "list",
+  "template": "views/list.html",
+  "url": "/list",
+  "files": [
+    "components/pagination/pagination.js",
+    "directives/count/count.js",
+    "js/list/index.js"
+  ]
+}, {
+  "title": "table",
+  "template": "views/table.html",
+  "url": "/table?a&b",
+  "files": [
+    "directives/modal/modal.js",
+    "js/table/index.js"
+  ]
+}, {
+  "title": "form",
+  "template": "views/form.html",
+  "url": "/form",
+  "files": [
+    "directives/validate/validate.js",
+    "js/form/index.js"
+  ]
+}]

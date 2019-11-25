@@ -1,0 +1,13 @@
+<div ng-controller="App.views.list.ctrl">
+  {{text}}
+  <div count on-send="onSend"></div>
+  <my-pagination page="page" get-ctx="getPag" on-change="onPageChange" init-page="3">
+    <transclude-title>
+        <button
+          ng-click="onClick()"
+          type="button"
+          class="btn btn-primary">第五页</button>
+    </transclude-title>
+    <transclude-body>slot body</transclude-body>
+  </my-pagination>
+</div>
